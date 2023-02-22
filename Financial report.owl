@@ -1,0 +1,935 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#"
+     xml:base="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8g21qta8MhBHhi9RkWRcOg -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8g21qta8MhBHhi9RkWRcOg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:label>Знает</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCGjEQVBTww3T9y4aF3T9uk -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCGjEQVBTww3T9y4aF3T9uk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:label>Соответствует</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCLzDhR3YlArwOQah4zil15 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCLzDhR3YlArwOQah4zil15">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Передает (информацию)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcRPjFvb1MYMvs7lBkmZfw -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RcRPjFvb1MYMvs7lBkmZfw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label>Общается с</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rh0qt7clODaDzAPYBEpIO2 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rh0qt7clODaDzAPYBEpIO2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Создает (в принципе)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rns39OvF3KKZg0LtD6Lw0y -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rns39OvF3KKZg0LtD6Lw0y">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Запрашивает первичную документацию</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NlVOl79njzWawUBlmQl7i -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7NlVOl79njzWawUBlmQl7i">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b"/>
+        <rdfs:label>Состоит из дополнительных услуг</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fHzKIqQj0hJszNYhsmyKB -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7fHzKIqQj0hJszNYhsmyKB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Состоит из коммерческих расходов</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qUxQm5EJ82K5S91Hqj2m4 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7qUxQm5EJ82K5S91Hqj2m4">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b"/>
+        <rdfs:label>Состоит из закупки материалов</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Состоит из себестоимости</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CceYuBWZRSKiR6Xnfq7aI -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8CceYuBWZRSKiR6Xnfq7aI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Состоит из прочих доходов</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8QYgTrPQg3aAl1WPt0eYvn -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8QYgTrPQg3aAl1WPt0eYvn">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RCPICGcEYx3rCI3GOWKUOM2"/>
+        <rdfs:label>Состоит из выручки от реализации работ по погрузке/разгрузке</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WxK8bNWM3WQwHiRXYZn2 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8WxK8bNWM3WQwHiRXYZn2">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из амортизации основных средств</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dzTTCiDg02ccELzCT3O8g -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8dzTTCiDg02ccELzCT3O8g">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/Rtb81DK7g9TJJhPywvCgIb"/>
+        <rdfs:label>Состоит из текущего налога на прибыль</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98vZrISgOA1hRkE6ToURyv -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R98vZrISgOA1hRkE6ToURyv">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Состоит из прочие расходы</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9MgoWkv5NFH3W5ikIYysp -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9MgoWkv5NFH3W5ikIYysp">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из арендной платы</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9aOTAbSVgCxGAymCwdsSH5 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9aOTAbSVgCxGAymCwdsSH5">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из страховых взносов с заработной платы сотрудников основного отдела</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9aYLiAa56OJRtr1mIKBHje -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9aYLiAa56OJRtr1mIKBHje">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R7fHzKIqQj0hJszNYhsmyKB"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из коммерческих расходов на рекламу</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9x0Kync8gXn20sj93G1zn8 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9x0Kync8gXn20sj93G1zn8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Состоит из управленческих расходов</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6HwtmipTYnC68rQrrXPqF -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB6HwtmipTYnC68rQrrXPqF">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9x0Kync8gXn20sj93G1zn8"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из страховых взносов сотрудников отдела Администрация</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFXrGZCRk7A1ipzdlfO9px -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBFXrGZCRk7A1ipzdlfO9px">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/Rtb81DK7g9TJJhPywvCgIb"/>
+        <rdfs:label>Состоит из отложенного налога на прибыль</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKAWI1UdPZjYGTXEarLVN3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCKAWI1UdPZjYGTXEarLVN3">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9x0Kync8gXn20sj93G1zn8"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из заработной платы сотрудников отдела Администрации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPICGcEYx3rCI3GOWKUOM2 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCPICGcEYx3rCI3GOWKUOM2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Состоит из выручки</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfkQV1Rjm67gR07S8JzCPR -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCfkQV1Rjm67gR07S8JzCPR">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R98vZrISgOA1hRkE6ToURyv"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Прочие расходы на услуги банка</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwMccf9jIMkOhPgTrG0bzA -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCwMccf9jIMkOhPgTrG0bzA">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9x0Kync8gXn20sj93G1zn8"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из консультационных услуг</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDCkeW7J40xvQ9HC5TP1Lhl -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDCkeW7J40xvQ9HC5TP1Lhl">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8CceYuBWZRSKiR6Xnfq7aI"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из прочих доходов от сдачи в аренду основных средств</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRo6PP9Jw5XhYqfP72xQ09 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDRo6PP9Jw5XhYqfP72xQ09">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из НДФЛ с заработной платы сотрудников основного отдела</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDn9mI3kdCULUy6iS8MVHMm -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDn9mI3kdCULUy6iS8MVHMm">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9x0Kync8gXn20sj93G1zn8"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из НДФЛ сотрудников отдела Администрация</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIzayu9XyRp6HoUz7xNqW9 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RIzayu9XyRp6HoUz7xNqW9">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R98vZrISgOA1hRkE6ToURyv"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Прочие расходы на штрафы, пени, неустойки</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJVHTvSDqEBQz6UynFoe6F -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RJVHTvSDqEBQz6UynFoe6F">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состот из заработной платы сотрудников основного отдела</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMlNEloPnvNHM5UdFYYF13 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RMlNEloPnvNHM5UdFYYF13">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RCPICGcEYx3rCI3GOWKUOM2"/>
+        <rdfs:label>Состоит из выручки от реализации отделочных работ</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rtb81DK7g9TJJhPywvCgIb -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rtb81DK7g9TJJhPywvCgIb">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Состоит из налога на прибыль</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtkC69PSXtxvZ55BCkD8uw -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RtkC69PSXtxvZ55BCkD8uw">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RCPICGcEYx3rCI3GOWKUOM2"/>
+        <rdfs:label>Состоит из выручки от реализации услуг по доставке</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyC3A9L1xrNIWy4reZce7J -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RyC3A9L1xrNIWy4reZce7J">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8CceYuBWZRSKiR6Xnfq7aI"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Состоит из прочих доходов от безвозмездных
+поступлений</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RycTThQbqcR3nqtiQP0jyP -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RycTThQbqcR3nqtiQP0jyP">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RCPICGcEYx3rCI3GOWKUOM2"/>
+        <rdfs:label>Состоит из выручки от реализации ремонтных работ</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Работает_в -->
+
+    <owl:DatatypeProperty rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Работает_в"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0p1C5LHDUImnOvVw2eXTf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R0p1C5LHDUImnOvVw2eXTf">
+        <rdfs:comment xml:lang="ru">Совокупность программ, обеспечивающих функционирование компьютеров и решение с их помощью задач предметных областей</rdfs:comment>
+        <rdfs:label>Программное обеспечение</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6Cu85JhrnH9gmHBziEUkp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6Cu85JhrnH9gmHBziEUkp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R88pSCgzwPjU13TrrDFgqzW"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8QYgTrPQg3aAl1WPt0eYvn"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPICGcEYx3rCI3GOWKUOM2"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RMlNEloPnvNHM5UdFYYF13"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RtkC69PSXtxvZ55BCkD8uw"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RycTThQbqcR3nqtiQP0jyP"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="ru">Физическое или юридическое лицо, осуществляющее оплату деньгами (или иным способом) и являющееся приобретателем товара или услуги.</rdfs:comment>
+        <rdfs:label>Покупатели</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74d901hK49sGp0cuQGB5PB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74d901hK49sGp0cuQGB5PB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROur1XOtyOmorabE2Mf6Qo"/>
+        <rdfs:comment xml:lang="ru">Это расходы на продажу</rdfs:comment>
+        <rdfs:label>Коммерческие расходы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7RgYGZNID0EHNtC7f1RYG8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7RgYGZNID0EHNtC7f1RYG8">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rns39OvF3KKZg0LtD6Lw0y"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R88pSCgzwPjU13TrrDFgqzW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCLzDhR3YlArwOQah4zil15"/>
+                <owl:allValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmWhi9Hgv8C7IK7JBrtPZA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RcRPjFvb1MYMvs7lBkmZfw"/>
+                <owl:allValuesFrom rdf:resource="http://webprotege.stanford.edu/R88pSCgzwPjU13TrrDFgqzW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8g21qta8MhBHhi9RkWRcOg"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Работает_в"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1С_Бухгалтерия</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="ru">Специалист среднего уровня, осуществляющий работу под четким руководством главного бухгалтера</rdfs:comment>
+        <rdfs:label>Помощник главного бухгалтера</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ayt179JnWzgtWq1Vsf8d8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ayt179JnWzgtWq1Vsf8d8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROur1XOtyOmorabE2Mf6Qo"/>
+        <rdfs:comment xml:lang="ru">Затраты на организацию, но не связанные напрямую с операционной деятельностью компании</rdfs:comment>
+        <rdfs:label>Управленческие расходы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88pSCgzwPjU13TrrDFgqzW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88pSCgzwPjU13TrrDFgqzW">
+        <rdfs:comment xml:lang="ru">Физическое или юридическое лицо, реализующее или приобретающее товары, работы, услуги</rdfs:comment>
+        <rdfs:label>Контрагенты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8RwtSX8YkP3Pzafe7RfVzt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8RwtSX8YkP3Pzafe7RfVzt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R88pSCgzwPjU13TrrDFgqzW"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7qUxQm5EJ82K5S91Hqj2m4"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="ru">Физическое или юридическое лицо, которое поставляет заказчикам определенные товары или услуги</rdfs:comment>
+        <rdfs:label>Поставщики</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Y51eRCfwG7ektgCve2e5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Y51eRCfwG7ektgCve2e5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R88pSCgzwPjU13TrrDFgqzW"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8QYgTrPQg3aAl1WPt0eYvn"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RMlNEloPnvNHM5UdFYYF13"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RtkC69PSXtxvZ55BCkD8uw"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RycTThQbqcR3nqtiQP0jyP"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="ru">Физическое или юридическое лицо, заинтересованное в выполнении исполнителем работ, оказании им услуг или приобретении у продавца какого-либо продукта</rdfs:comment>
+        <rdfs:label>Заказчики</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9MM1iFnqBNLWUkF3pWckbU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9MM1iFnqBNLWUkF3pWckbU">
+        <rdfs:comment xml:lang="ru">Совокупность правовых норм, определяющих создание, юридический статус и функционирование информационных систем, регламентирующих порядок получения, преобразования и использования информации.</rdfs:comment>
+        <rdfs:label>Нормативно-правовое обеспечение</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmWhi9Hgv8C7IK7JBrtPZA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmWhi9Hgv8C7IK7JBrtPZA">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8g21qta8MhBHhi9RkWRcOg"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9MM1iFnqBNLWUkF3pWckbU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rh0qt7clODaDzAPYBEpIO2"/>
+                <owl:allValuesFrom rdf:resource="http://webprotege.stanford.edu/RCpRxW0eC5nVDHrZsNQKDLb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Работает_в"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1С_Бухгалтерия</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Работает_в"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1С_ЗУП</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="ru">Основной работник организации по учету финансов</rdfs:comment>
+        <rdfs:label>Главный бухгалтер</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKilTegeGZtbVQZMEtWlYw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKilTegeGZtbVQZMEtWlYw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROur1XOtyOmorabE2Mf6Qo"/>
+        <rdfs:comment xml:lang="ru">Расходы по видам деятельности, характерным для этого предприятия. Расходы фиксируются по тем доходам, которые были отражены в выручке.</rdfs:comment>
+        <rdfs:label>Себестоимость</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpRxW0eC5nVDHrZsNQKDLb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCpRxW0eC5nVDHrZsNQKDLb">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7fHzKIqQj0hJszNYhsmyKB"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8CceYuBWZRSKiR6Xnfq7aI"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R98vZrISgOA1hRkE6ToURyv"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9x0Kync8gXn20sj93G1zn8"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPICGcEYx3rCI3GOWKUOM2"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rtb81DK7g9TJJhPywvCgIb"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="ru">Форма бухгалтерской отчётности в России, которая характеризует финансовые результаты деятельности организации за отчётный период и содержит данные о доходах, расходах и финансовых результатах в сумме нарастающим итогом с начала года до отчётной даты</rdfs:comment>
+        <rdfs:label>Отчет о финансовых результатах</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDeXKP5ZLJQe6zn3SWfgx2p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDeXKP5ZLJQe6zn3SWfgx2p">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROur1XOtyOmorabE2Mf6Qo"/>
+        <rdfs:comment xml:lang="ru">Прямой налог, величина которого прямо зависит от конечных финансовых результатов деятельности организации</rdfs:comment>
+        <rdfs:label>Налог на прибыль</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDr5tIy2GSqsc4fnmEblF3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDr5tIy2GSqsc4fnmEblF3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROur1XOtyOmorabE2Mf6Qo"/>
+        <rdfs:comment xml:lang="ru">Любые расходы компании, которые не относятся к себестоимости, коммерческим и управленческим расходам</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Прочие расходы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RL03XjExVrtrSWXrHupj4a -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RL03XjExVrtrSWXrHupj4a">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROur1XOtyOmorabE2Mf6Qo"/>
+        <rdfs:comment xml:lang="ru">Сума денежных средств, которые компания получила от продажи товаров и услуг</rdfs:comment>
+        <rdfs:label>Выручка</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROur1XOtyOmorabE2Mf6Qo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ROur1XOtyOmorabE2Mf6Qo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpRxW0eC5nVDHrZsNQKDLb"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCGjEQVBTww3T9y4aF3T9uk"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9MM1iFnqBNLWUkF3pWckbU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7fHzKIqQj0hJszNYhsmyKB"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8AanK0Ks3eNV4G8Nja12b"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8CceYuBWZRSKiR6Xnfq7aI"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8QYgTrPQg3aAl1WPt0eYvn"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R98vZrISgOA1hRkE6ToURyv"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9x0Kync8gXn20sj93G1zn8"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB6HwtmipTYnC68rQrrXPqF"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCKAWI1UdPZjYGTXEarLVN3"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPICGcEYx3rCI3GOWKUOM2"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDn9mI3kdCULUy6iS8MVHMm"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RMlNEloPnvNHM5UdFYYF13"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rtb81DK7g9TJJhPywvCgIb"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RtkC69PSXtxvZ55BCkD8uw"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RycTThQbqcR3nqtiQP0jyP"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Отчет о финансовых результатах строительной компании</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Re7SXXvFPInEavuunx3URN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Re7SXXvFPInEavuunx3URN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R88pSCgzwPjU13TrrDFgqzW"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7NlVOl79njzWawUBlmQl7i"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="ru">Физическое или юридическое лицо, выполняющее работы в соответствии с заданием заказчика</rdfs:comment>
+        <rdfs:label>Подрядчики</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyGyzKUnPVwgNvSJGIr9ni -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RyGyzKUnPVwgNvSJGIr9ni">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROur1XOtyOmorabE2Mf6Qo"/>
+        <rdfs:comment xml:lang="ru">Дюбые доходы компании, кроме выручки</rdfs:comment>
+        <rdfs:label>Прочие доходы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Бухгалтерское_программное_обеспечение -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Бухгалтерское_программное_обеспечение">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R0p1C5LHDUImnOvVw2eXTf"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9MM1iFnqBNLWUkF3pWckbU"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#ФЗ_О_бухгалтерском_учете_от_06.12.2011_N_402-ФЗ -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#ФЗ_О_бухгалтерском_учете_от_06.12.2011_N_402-ФЗ">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#1С_Бухгалтерия -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#1С_Бухгалтерия">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Бухгалтерское_программное_обеспечение"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#1С_ЗУП -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#1С_ЗУП">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Бухгалтерское_программное_обеспечение"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Налоговый_кодекс_Российской_Федерации_(НК_РФ) -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Налоговый_кодекс_Российской_Федерации_(НК_РФ)">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_РФ_от_31.10.2000_N_94н_(ред._от_08.11.2010)_Об_утверждении_Плана_счетов_бухгалтерского_учета_финансово-хозяйственной_деятельности_организаций_и_Инструкции_по_его_применению -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_РФ_от_31.10.2000_N_94н_(ред._от_08.11.2010)_Об_утверждении_Плана_счетов_бухгалтерского_учета_финансово-хозяйственной_деятельности_организаций_и_Инструкции_по_его_применению">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_06.05.1999_N_33н_(ред._от_06.04.2015)_Об_утверждении_Положения_по_бухгалтерскому_учету_Расходы_организации_ПБУ_10/99 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_06.05.1999_N_33н_(ред._от_06.04.2015)_Об_утверждении_Положения_по_бухгалтерскому_учету_Расходы_организации_ПБУ_10/99">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_16.10.2018_N_208н_(ред._от_29.06.2022)_Об_утверждении_Федерального_стандарта_бухгалтерского_учета_ФСБУ_25/2018_Бухгалтерский_учет_аренды -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_16.10.2018_N_208н_(ред._от_29.06.2022)_Об_утверждении_Федерального_стандарта_бухгалтерского_учета_ФСБУ_25/2018_Бухгалтерский_учет_аренды">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_17.09.2020_N_204н_Об_утверждении_Федеральных_стандартов_бухгалтерского_учета_ФСБУ_6/2020_Основные_средства_и_ФСБУ_26/2020_Капитальные_вложения -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_17.09.2020_N_204н_Об_утверждении_Федеральных_стандартов_бухгалтерского_учета_ФСБУ_6/2020_Основные_средства_и_ФСБУ_26/2020_Капитальные_вложения">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_19.11.2002_N_114н_(ред._от_20.11.2018)_Об_утверждении_Положения_по_бухгалтерскому_учету_Учет_расчетов_по_налогу_на_прибыль_организаций_ПБУ_18/02 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_19.11.2002_N_114н_(ред._от_20.11.2018)_Об_утверждении_Положения_по_бухгалтерскому_учету_Учет_расчетов_по_налогу_на_прибыль_организаций_ПБУ_18/02">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_27.02.2018_N_32н_(ред._от_16.12.2019)_Об_утверждении_федерального_стандарта_бухгалтерского_учета_Доходы -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Приказ_Минфина_России_от_27.02.2018_N_32н_(ред._от_16.12.2019)_Об_утверждении_федерального_стандарта_бухгалтерского_учета_Доходы">
+        <rdf:type rdf:resource="urn:webprotege:ontology:ad16bca3-e9f4-4d3b-9a68-3e04051c40ed#Нормативно-правовые_акты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://webprotege.stanford.edu/R0p1C5LHDUImnOvVw2eXTf"/>
+            <rdf:Description rdf:about="http://webprotege.stanford.edu/R7RgYGZNID0EHNtC7f1RYG8"/>
+            <rdf:Description rdf:about="http://webprotege.stanford.edu/R88pSCgzwPjU13TrrDFgqzW"/>
+            <rdf:Description rdf:about="http://webprotege.stanford.edu/R9MM1iFnqBNLWUkF3pWckbU"/>
+            <rdf:Description rdf:about="http://webprotege.stanford.edu/RBmWhi9Hgv8C7IK7JBrtPZA"/>
+            <rdf:Description rdf:about="http://webprotege.stanford.edu/RCpRxW0eC5nVDHrZsNQKDLb"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
